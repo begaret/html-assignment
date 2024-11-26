@@ -9,4 +9,30 @@ body
     height: 100vh;
 
     background-color: red;
+
+    display: grid;
+
+    grid-template: 45px 1fr 45px / 1fr;
+}
+
+.header, .footer
+{
+    background-color: aliceblue;
+}
+
+.main
+{
+    background-color: bisque;
+    
+    grid-row: 2;
+}
+
+.header
+{
+    grid-row: 1;
+}
+
+.footer
+{
+    grid-row: 3;
 }
