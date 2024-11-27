@@ -18,14 +18,17 @@ body
 
     display: grid;
     grid-template: 
-          8% 1fr 10%
-        / 1fr 80% 1fr;
+          10% 1fr 10%
+        / 1fr 90% 1fr;
 }
 
 .header, .footer
 {
     background-color: #0f0f0f;
 
+    height: min-content;
+
+    padding: 0px 12px;
     grid-column: span 3;
 }
 
@@ -42,10 +45,6 @@ body
     grid-column: 2;
 }
 
-.main > p
-{
-}
-
 .header
 {
     border-bottom: thin solid #323232;
@@ -56,4 +55,9 @@ body
 {
     border-top: thin solid #323232;
     grid-row: 3;
+}
+
+.footer > p
+{
+    font-size: smaller;
 }
