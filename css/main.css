@@ -60,11 +60,17 @@ h1
 
 .logo
 {
-    width: auto;
+    max-width:  40px;
     max-height: 100%;
 
     padding: 0px 36px;
     margin: 12px 0px;
+}
+
+.logo > img
+{
+    width: auto;
+    height: 100%;
 }
 
 .nav
