@@ -1,0 +1,20 @@
+@import "data.css";
+
+.footer
+{
+    /* border-top: thin solid #323032; */
+    border-top: thin solid var(--border-color);
+    margin-top: auto;
+    background-color: var(--bg-color-footer);
+
+    width: 100%;
+    height: 8rem;
+
+    font-size: smaller;
+	
+	padding: 0px;
+
+    /* position: sticky; */
+    /* bottom: 0px; */
+}
+

@@ -1,0 +1,36 @@
+:root
+{
+	--bg-color-header: #08070a;
+	--bg-color-footer: #08070a;
+	--bg-color-main: #111016;
+	--bg-color-content: #111016;
+
+	--border-color: #3f4449;
+
+	--text-color-heading: #a1aab4;
+	--text-color-main: #757d86;
+	--text-color-active: #ffffff;
+	--text-color-inactive: #757d86;
+
+	--logo-filter: none;
+	--text-shadow: 1px 1px 2.5px #08070a;
+}
+
+:root
+{
+	--bg-color-header: #f0f0f7;
+	--bg-color-footer: #f0f0f7;
+	--bg-color-main: #ffffff;
+	--bg-color-content: #ffffff;
+
+	--border-color: #020207;
+
+	--text-color-heading: #f0f0f7;
+	--text-color-main: #f0f0f7;
+	--text-color-active: #ffffff;
+	--text-color-inactive: #f0f0f7;
+	
+	--logo-filter: drop-shadow(1px 1px 2.5px #08070a);
+	--text-shadow: 1px 1px 2.5px #08070a;
+}
+
