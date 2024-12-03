@@ -25,12 +25,12 @@
     padding: 0px 16px;
     margin: 12px 0px;
 
-    border-right: thin solid var(--border-color);
+    border-right: thin solid var(--logo-border-color);
 }
 
 .logo > img
 {
-	filter: drop-shadow(1px 1px 2.5px #08070a);
+	filter: var(--logo-filter);
 
     width: auto;
     height: 100%;
@@ -41,7 +41,7 @@
     width: 100%;
     
     display: flex;
-	justify-content: left;
+	justify-content: right;
 }
 
 .nav-item
@@ -56,12 +56,20 @@
     justify-content: center;
     align-content: center;
 
+    /*
     min-width: 6rem;
     width: max-content;
+    */
 
-    padding: 12px 36px;
+    padding: 12px 24px;
 
     transition: color 0.2s ease-in-out;
+}
+
+.nav-item > img
+{
+    width: 30.35px;
+    height: auto;
 }
 
 #curr-page.nav-item

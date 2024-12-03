@@ -5,6 +5,7 @@
 	--bg-color-main: #111016;
 	--bg-color-content: #111016;
 
+	--logo-border-color: #3f4449;
 	--border-color: #3f4449;
 
 	--text-color-heading: #a1aab4;
@@ -18,19 +19,20 @@
 
 :root
 {
-	--bg-color-header: #f0f0f7;
-	--bg-color-footer: #f0f0f7;
+	--bg-color-header: #ffe500;
+	--bg-color-footer: #ffe500;
 	--bg-color-main: #ffffff;
 	--bg-color-content: #ffffff;
 
-	--border-color: #020207;
+	--logo-border-color: #000;
+	--border-color: #dee2e6;
 
-	--text-color-heading: #f0f0f7;
-	--text-color-main: #f0f0f7;
-	--text-color-active: #ffffff;
-	--text-color-inactive: #f0f0f7;
+	--text-color-heading: #000;
+	--text-color-main: #000;
+	--text-color-active: #fff;
+	--text-color-inactive: #000;
 	
-	--logo-filter: drop-shadow(1px 1px 2.5px #08070a);
-	--text-shadow: 1px 1px 2.5px #08070a;
+	--logo-filter: invert(1);
+	--text-shadow: none;
 }
 
