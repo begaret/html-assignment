@@ -1,19 +1,6 @@
+@import "common.css";
 @import "header.css";
 @import "footer.css";
-@import "data.css";
-
-html
-{
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    color: var(--text-color-main);
-
-    background-color: var(--bg-color-content);
-}
-
-body
-{
-    margin: 0 auto;
-}
 
 .content
 {
@@ -63,62 +50,4 @@ body
     word-break: break-word;
     line-height: 1.2;
     margin-top: 0px;
-}
-
-.user-head
-{
-    display: flex;
-    flex-direction: row;
-
-    justify-content: left;
-    gap: 1rem;
-
-    width: 100%;
-}
-
-.user-head > img
-{
-    width: 10%;
-    height: auto;
-}
-
-.user-body
-{
-    width: 100%;
-    height: 100%;
-}
-
-.user-element
-{
-    margin-top: 12px;
-    padding: 1rem;
-
-    border: thin solid var(--border-color);
-    border-radius: 7.5px;
-
-    width: 100%;
-
-    text-align: left;
-}
-
-.user-element > table
-{
-    width: 100%;
-}
-
-.user-element > th, td
-{
-    padding: 0.25rem 2rem;
-}
-
-.user-element > ul
-{
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-.user-element > ul > li
-{
-    padding: 0.25rem;
 }

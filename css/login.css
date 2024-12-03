@@ -1,0 +1,50 @@
+@import "common.css";
+
+.content
+{
+    min-width: 100vw;
+    min-height: 100vh;
+
+    height: min-content;
+
+    /* background-color: #0d0c0d; */
+    background-color: var(--bg-color-content);
+
+    justify-content: center;
+    align-content: center;
+}
+
+.main
+{
+    background-color: var(--bg-color-header);
+
+    margin: 0 20%;
+    padding: 0 5%;
+
+    border: thin solid var(--border-color);
+    border-radius: 7.5px;
+}
+
+.main > h1
+{
+    font-size: large;
+
+    /* border-bottom: thin solid #323032; */
+    border-bottom: thin solid var(--text-color-heading);
+    margin-bottom: 8px;
+
+    color: var(--text-color-heading);
+}
+
+form
+{
+    margin: 1rem;
+
+    width: 100%;
+    height: auto;
+}
+
+form > label, input, button
+{
+    margin: 1rem;
+}

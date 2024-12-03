@@ -1,24 +1,5 @@
 :root
 {
-	--bg-color-header: #08070a;
-	--bg-color-footer: #08070a;
-	--bg-color-main: #111016;
-	--bg-color-content: #111016;
-
-	--logo-border-color: #3f4449;
-	--border-color: #3f4449;
-
-	--text-color-heading: #a1aab4;
-	--text-color-main: #757d86;
-	--text-color-active: #ffffff;
-	--text-color-inactive: #757d86;
-
-	--logo-filter: none;
-	--text-shadow: 1px 1px 2.5px #08070a;
-}
-
-:root
-{
 	--bg-color-header: #ffe500;
 	--bg-color-footer: #ffe500;
 	--bg-color-main: #ffffff;

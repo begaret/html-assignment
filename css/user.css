@@ -1,0 +1,62 @@
+@import "common.css";
+@import "header.css";
+@import "footer.css";
+@import "main.css";
+
+.user-head
+{
+    display: flex;
+    flex-direction: row;
+
+    justify-content: left;
+    gap: 1rem;
+
+    width: 100%;
+}
+
+.user-head > img
+{
+    width: 10%;
+    height: auto;
+}
+
+.user-body
+{
+    width: 100%;
+    height: 100%;
+}
+
+.user-element
+{
+    margin-top: 12px;
+    padding: 1rem;
+
+    border: thin solid var(--border-color);
+    border-radius: 7.5px;
+
+    width: 100%;
+
+    text-align: left;
+}
+
+.user-element > table
+{
+    width: 100%;
+}
+
+.user-element > th, td
+{
+    padding: 0.25rem 2rem;
+}
+
+.user-element > ul
+{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.user-element > ul > li
+{
+    padding: 0.25rem;
+}
