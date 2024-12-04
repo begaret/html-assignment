@@ -1,8 +1,7 @@
-@import "data.css";
+@import "common.css";
 
 .footer
 {
-    /* border-top: thin solid #323032; */
     border-top: thin solid var(--border-color);
     margin-top: auto;
     background-color: var(--bg-color-footer);
@@ -14,13 +13,19 @@
 	
 	padding: 8px;
 
-    display: none;
-
-    /* position: sticky; */
-    /* bottom: 0px; */
+    display: flex;
+    flex-direction: column;
 }
+
+.footer > img
+{
+    width: 25%;
+    height: auto;
+}
+
 .footlink
 {
     color: var(--text-color-heading);
+    text-decoration: underline;
+    font-weight: bold;
 }
-
