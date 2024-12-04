@@ -40,11 +40,18 @@ form
 {
     margin: 1rem;
 
-    width: 100%;
     height: auto;
 }
 
 form > label, input, button
 {
-    margin: 1rem;
+    margin: 1rem 0;
+}
+
+@media screen and (max-width: 600px)
+{
+    form > label, input, button
+    {
+        width: 100%;
+    }
 }

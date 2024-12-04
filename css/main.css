@@ -32,12 +32,38 @@
 	text-shadow: var(--text-shadow);
 }
 
+@media screen and (max-width: 900px)
+{
+    .main
+    {
+        margin: 0 10%;
+    }
+}
+
+@media screen and (max-width: 600px)
+{
+    .main
+    {
+        margin: 0;
+    }
+}
+
 .main > h1
+{
+    font-size: xx-large;
+
+    /* border-bottom: thin solid #323032; */
+    border-bottom: thin solid var(--border-color);
+    margin-bottom: 8px;
+
+    color: var(--text-color-heading);
+}
+
+.main > h2
 {
     font-size: large;
 
     /* border-bottom: thin solid #323032; */
-    border-bottom: thin solid var(--border-color);
     margin-bottom: 8px;
 
     color: var(--text-color-heading);
@@ -50,4 +76,18 @@
     word-break: break-word;
     line-height: 1.2;
     margin-top: 0px;
+}
+
+.banner
+{
+    width: 100%;
+    height: auto;
+
+    margin-bottom: 1rem;
+}
+
+.main > iframe
+{
+    margin: auto 2.5rem;
+    margin-bottom: 2.5rem;
 }
